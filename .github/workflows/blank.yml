@@ -21,7 +21,7 @@ jobs:
         cd prueba
         touch hola.txt
         ls 
-     - name: echo a prueba tail
+     - name: echo a tail
        run: |
         tail texto.txt 
         
