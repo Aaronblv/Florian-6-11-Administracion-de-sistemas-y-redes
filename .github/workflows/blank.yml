@@ -26,7 +26,8 @@ jobs:
         tail texto.txt 
      - name: echo a cp
        run: |
-        cp texto.txt /home/runner/work/Florian-6-11-Administracion-de-sistemas-y-redes/Florian-6-11-Administracion-de-sistemas-y-redes
+        mkdir prueba-cp
+        cp texto.txt /home/runner/work/Florian-6-11-Administracion-de-sistemas-y-redes/Florian-6-11-Administracion-de-sistemas-y-redes/prueba-cp
         
         
        
