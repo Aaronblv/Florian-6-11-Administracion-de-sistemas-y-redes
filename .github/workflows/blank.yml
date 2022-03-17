@@ -19,7 +19,7 @@ jobs:
         pwd
         mkdir prueba
         cd prueba
-        touch hola.txt
+        cat > hola.txt
         ls 
      - name: echo a tail
        run: |
