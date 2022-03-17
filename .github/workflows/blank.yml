@@ -24,6 +24,10 @@ jobs:
      - name: echo a tail
        run: |
         tail texto.txt 
+     - name: echo a cp
+       run: |
+        touch nashei.txt
+        cp nashei.txt /home/runner/work/Florian-6-11-Administracion-de-sistemas-y-redes/Florian-6-11-Administracion-de-sistemas-y-redes
         
         
        
