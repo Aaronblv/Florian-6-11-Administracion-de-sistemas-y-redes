@@ -14,3 +14,18 @@ jobs:
          java-version: 1.8
      - name: echo a string
        run: echo "Hello world"
+     - name: echo a comandos
+       run: |
+        pwd
+        mkdir prueba
+        cd prueba
+        touch hola.txt
+        ls 
+     - name: echo a prueba tail
+       run: |
+        tail texto.txt 
+        
+        
+       
+       
+       
