@@ -32,7 +32,16 @@ jobs:
        run: |
         touch archivo.txt
         mv archivo.txt /home/runner/work/Florian-6-11-Administracion-de-sistemas-y-redes/Florian-6-11-Administracion-de-sistemas-y-redes/prueba-cp
-        
-       
-       
+     - name: echo a estructura
+       run: |
+        cd home/
+        mkdir alumno
+        cd alumno
+        mkdir informatica
+        cd informatica
+        mkdir alumnosinf
+        mkdir profesoresinf
+        mkdir aulainf
+        cd alumnosinf
+        mkdir notasinf
        
