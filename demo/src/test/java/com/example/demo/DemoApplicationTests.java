@@ -21,14 +21,14 @@ class DemoApplicationTests {
 	@Test
 	void sumar() {
 
-		assertEquals(calc.sumar(1,2),3);
-		assertNotEquals(calc.sumar(1,2),4);
+		assertEquals(calc.suma(1,4),3);
+		assertNotEquals(calc.suma(1,4),4);
 	}
 
 	@Test
 	public void shouldThrowException() {
 		Assertions.assertThrows(ArithmeticException.class, () -> {
-			calc.dividir(1, 0);
+			calc.division(1, 0);
 		});
 
 	}
