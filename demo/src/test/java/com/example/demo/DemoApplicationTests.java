@@ -12,7 +12,7 @@ import static org.junit.jupiter.api.Assertions.*;
 @SpringBootTest
 class DemoApplicationTests {
 
-	DemoApplication calc = new DemoApplication();
+	DemoApplication calculadora = new DemoApplication();
 
 	@Test
 	void contextLoads() {
@@ -21,15 +21,14 @@ class DemoApplicationTests {
 	@Test
 	void sumar() {
 
-		assertEquals(calc.suma(1,4),3);
-		assertNotEquals(calc.suma(1,4),4);
+		assertEquals(calculadora.suma(1,4),3);
+		assertNotEquals(calculadora.suma(1,4),4);
 	}
 
 	@Test
 	public void shouldThrowException() {
 		Assertions.assertThrows(ArithmeticException.class, () -> {
-			calc.division(1, 0);
+			calculadora.division(1, 0);
 		});
-
 	}
 }
