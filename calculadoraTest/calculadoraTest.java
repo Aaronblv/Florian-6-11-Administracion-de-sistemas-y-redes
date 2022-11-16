@@ -17,7 +17,7 @@ public class calculadoraTest {
 
     @Test
     public void sumaTest2(){
-        assertNotEquals(calculator.sumar(1,2), 4 );
+        assertNotEquals(calculator.sumar(1,2), 4);
     }
 
     @Test
@@ -27,7 +27,7 @@ public class calculadoraTest {
 
     @Test
     public void restarTest2(){
-        assertNotEquals(calculator.restar(2,2), 2 );
+        assertNotEquals(calculator.restar(2,2), 2);
     }
 
     @Test
@@ -47,11 +47,11 @@ public class calculadoraTest {
 
     @Test
     public void dividirTest2(){
-        assertNotEquals(calculator.dividir(1,2), 4 );
+        assertNotEquals(calculator.dividir(1,2), 4);
     }
 
     @Test
     public void raizCuadraticaTest(){
-        assertNotEquals(calculator.raizCuadratica(2,4,6),-4,2);
+        assertNotEquals(calculator.raizCuadratica(2,4,6),4,2);
     }
 }
