@@ -27,6 +27,5 @@ public class calculadora {
 
         double[] resultado = {postMasMenosPositivo,postMasMenosNegativo};
         return resultado;
-
     }
 }
